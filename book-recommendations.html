@@ -10,19 +10,54 @@
             background-color: #f8f6f2;
             max-width: 1200px;
             margin: auto;
-            padding: 20px;
+            padding: 30px;
             color: #222;
+        }
+
+        section {
+            margin-bottom: 60px;
         }
 
         h1 {
             text-align: center;
-            margin-bottom: 10px;
+            font-size: 42px;
+            margin-top: 40px;
+            margin-bottom: 20px;
         }
 
-        .subtitle {
+        h2 {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 25px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+
+        .all-books {
+            background: white;
+            padding: 35px;
+            border-radius: 14px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            text-align: center;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .all-books p {
             color: #666;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #222;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
         }
 
         .gallery {
@@ -40,19 +75,22 @@
             box-shadow: 0 3px 10px rgba(0,0,0,0.1);
             text-decoration: none;
             color: black;
-            transition: transform 0.3s;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
 
         .list-card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
         }
 
-        .list-card h2 {
+        .list-card h3 {
             margin-top: 0;
+            font-size: 20px;
         }
 
         .list-card p {
             color: #666;
+            margin-bottom: 0;
         }
 
         .home-link {
@@ -61,6 +99,7 @@
             margin-top: 40px;
             text-decoration: none;
             font-weight: bold;
+            color: #222;
         }
     </style>
 
@@ -68,149 +107,120 @@
 
 <body>
 
-    <h1>基石荐书</h1>
+    <section class="hero">
+        <h1>基石荐书</h1>
+    </section>
 
-    <p class="subtitle">
-        
-    </p>
+    <section class="all-books">
+        <h2>全部书单</h2>
+        <p>
+            浏览基石荐书历季推荐书目，涵盖投资、经济、历史、政治、哲学与科技等主题。
+        </p>
+        <a class="button" href="all-books.html">查看全部书目</a>
+    </section>
 
-    <div class="gallery">
+    <section class="reading-lists">
+        <h2>历季荐书</h2>
 
-        <a class="list-card" href="book-list-21.html">
-            <h2>基石读书推荐第二十一季</h2>
-            <p>
-                2020.08.01
-            </p>
-        </a>
+        <div class="gallery">
 
-        <a class="list-card" href="book-list-20.html">
-            <h2>基石读书推荐第二十季</h2>
-            <p>
-                2019.12.12
-            </p>
-        </a>
+            <a class="list-card" href="book-list-21.html">
+                <h3>基石读书推荐第二十一季</h3>
+                <p>2020.08.01</p>
+            </a>
 
-        <a class="list-card" href="book-list-19.html">
-            <h2>基石读书推荐第十九季</h2>
-            <p>
-                2019.06.12
-            </p>
-        </a>
+            <a class="list-card" href="book-list-20.html">
+                <h3>基石读书推荐第二十季</h3>
+                <p>2019.12.12</p>
+            </a>
 
-        <a class="list-card" href="book-list-18.html">
-            <h2>基石读书推荐第十八季</h2>
-            <p>
-                2018.11.21
-            </p>
-        </a>
+            <a class="list-card" href="book-list-19.html">
+                <h3>基石读书推荐第十九季</h3>
+                <p>2019.06.12</p>
+            </a>
 
-        <a class="list-card" href="book-list-17.html">
-            <h2>基石读书推荐第十七季</h2>
-            <p>
-                2017.12.22
-            </p>
-        </a>
+            <a class="list-card" href="book-list-18.html">
+                <h3>基石读书推荐第十八季</h3>
+                <p>2018.11.21</p>
+            </a>
 
-        <a class="list-card" href="book-list-16.html">
-            <h2>基石读书推荐第十六季</h2>
-            <p>
-                2017.10.09
-            </p>
-        </a>
+            <a class="list-card" href="book-list-17.html">
+                <h3>基石读书推荐第十七季</h3>
+                <p>2017.12.22</p>
+            </a>
 
-        <a class="list-card" href="book-list-15.html">
-            <h2>基石读书推荐第十五季</h2>
-            <p>
-                2016.12.29
-            </p>
-        </a>      
+            <a class="list-card" href="book-list-16.html">
+                <h3>基石读书推荐第十六季</h3>
+                <p>2017.10.09</p>
+            </a>
 
-        <a class="list-card" href="book-list-14.html">
-            <h2>基石读书推荐第十四季</h2>
-            <p>
-                2016.01.29
-            </p>
-        </a>
+            <a class="list-card" href="book-list-15.html">
+                <h3>基石读书推荐第十五季</h3>
+                <p>2016.12.29</p>
+            </a>
 
-        <a class="list-card" href="book-list-13.html">
-            <h2>基石读书推荐第十三季</h2>
-            <p>
-                2015.08.27
-            </p>
-        </a>
+            <a class="list-card" href="book-list-14.html">
+                <h3>基石读书推荐第十四季</h3>
+                <p>2016.01.29</p>
+            </a>
 
-        <a class="list-card" href="book-list-12.html">
-            <h2>基石读书推荐第十二季</h2>
-            <p>
-                2015.12.30
-            </p>
-        </a>
+            <a class="list-card" href="book-list-13.html">
+                <h3>基石读书推荐第十三季</h3>
+                <p>2015.08.27</p>
+            </a>
 
-        <a class="list-card" href="book-list-11.html">
-            <h2>基石读书推荐第十一季</h2>
-            <p>
-                2015.05.15
-            </p>
-        </a>
+            <a class="list-card" href="book-list-12.html">
+                <h3>基石读书推荐第十二季</h3>
+                <p>2015.12.30</p>
+            </a>
 
-        <a class="list-card" href="book-list-10.html">
-            <h2>基石读书推荐第十季</h2>
-            <p>
-                2014.05.12
-            </p>
-        </a>
+            <a class="list-card" href="book-list-11.html">
+                <h3>基石读书推荐第十一季</h3>
+                <p>2015.05.15</p>
+            </a>
 
-        <a class="list-card" href="book-list-9.html">
-            <h2>基石读书推荐第九季</h2>
-            <p>
-                2013.12.25
-            </p>
-        </a>
+            <a class="list-card" href="book-list-10.html">
+                <h3>基石读书推荐第十季</h3>
+                <p>2014.05.12</p>
+            </a>
 
-        <a class="list-card" href="book-list-8.html">
-            <h2>基石读书推荐第八季</h2>
-            <p>
-                2013.12.25
-            </p>
-        </a>
-        
-        <a class="list-card" href="book-list-7.html">
-            <h2>基石读书推荐第七季</h2>
-            <p>
-                2013.07.23
-            </p>
-        </a>
-        
-        <a class="list-card" href="book-list-6.html">
-            <h2>基石读书推荐第六季</h2>
-            <p>
-                2013.02.05
-            </p>
-        </a>
-        
-        <a class="list-card" href="book-list-5.html">
-            <h2>基石读书推荐第五季</h2>
-            <p>
-                2012.12.21
-            </p>
-        </a>
-        
-        <a class="list-card" href="book-list-4.html">
-            <h2>基石读书推荐第四季</h2>
-            <p>
-                2012.07.10
-            </p>
-        </a>
-        
-        <a class="list-card" href="book-list-3.html">
-            <h2>基石读书推荐第三季</h2>
-            <p>
-                2012.07.03
-            </p>
-        </a>
+            <a class="list-card" href="book-list-9.html">
+                <h3>基石读书推荐第九季</h3>
+                <p>2013.12.25</p>
+            </a>
 
-        
-    </div>
+            <a class="list-card" href="book-list-8.html">
+                <h3>基石读书推荐第八季</h3>
+                <p>2013.12.25</p>
+            </a>
+
+            <a class="list-card" href="book-list-7.html">
+                <h3>基石读书推荐第七季</h3>
+                <p>2013.07.23</p>
+            </a>
+
+            <a class="list-card" href="book-list-6.html">
+                <h3>基石读书推荐第六季</h3>
+                <p>2013.02.05</p>
+            </a>
+
+            <a class="list-card" href="book-list-5.html">
+                <h3>基石读书推荐第五季</h3>
+                <p>2012.12.21</p>
+            </a>
+
+            <a class="list-card" href="book-list-4.html">
+                <h3>基石读书推荐第四季</h3>
+                <p>2012.07.10</p>
+            </a>
+
+            <a class="list-card" href="book-list-3.html">
+                <h3>基石读书推荐第三季</h3>
+                <p>2012.07.03</p>
+            </a>
+
+        </div>
+    </section>
 
     <a class="home-link" href="index.html">
         ← Return Home
