@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>基石读书推荐第二十一</title>
+
+    <style>
+        body {
+            font-family: Times, serif;
+            background-color: #f8f6f2;
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px;
+            color: #222;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        .book {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .book h2 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .book p {
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            color: #222;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>基石读书推荐第二十一</h1>
+    <p class="date">2012.07.10</p>
+
+    <div class="book">
+        <h2>书名一</h2>
+        <p>作者：作者姓名</p>
+    </div>
+
+    <div class="book">
+        <h2>书名二</h2>
+        <p>作者：作者姓名</p>
+    </div>
+
+    <div class="book">
+        <h2>书名三</h2>
+        <p>作者：作者姓名</p>
+    </div>
+
+    <a class="back-link" href="book-recommendations.html">
+        ← 返回基石荐书
+    </a>
+
+</body>
+
+</html>
